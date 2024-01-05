@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Sobre Nosotros";
+}
+<main aria-labelledby="title">
+    <style>
+        #Mision,
+        #vision {
+            width: calc(50% - 20px);
+            margin-right: 10px;
+            padding-right: 10px;
+            font-size: 23px;
+            vertical-align: top;
+            display: inline-block;
+            margin-bottom: 20px;
+            margin: 20px 10px;
+            border-right: 1px solid #ccc; /* Línea divisora entre Misión y Visión */
+        }
+
+        #vision {
+            margin-right: 0; /* Eliminar el margen derecho para separar la Visión del borde derecho */
+        }
+
+        #productos {
+            background-color: #f9f9f9;
+            padding: 40px;
+            margin-top: 30px;
+            border-radius: 8px;
+            font-size: 23px;
+            margin: 20px 10px; /* Márgenes ajustados para el contenedor de productos */
+        }
+    </style>
+
+    <h2 id="title">@ViewBag.Title.</h2>
+
+    <section id="quienes-somos">
+        <!-- Contenido de "Quiénes somos" -->
+    </section>
+
+    <section class="info-contacto">
+        <section id="Mision">
+            <h3>Misión</h3>
+            <p>
+                Facilitar a nuestros clientes la experiencia de compra en línea más
+                conveniente, ofreciendo una amplia gama de productos de alta calidad, un servicio excepcional y una plataforma intuitiva que garantice
+                la satisfacción del cliente en cada paso del proceso de compra.
+            </p>
+        </section>
+
+        <section id="vision">
+            <h3>Visión</h3>
+            <p>
+                Convertirnos en el referente líder en la industria del comercio electrónico,
+                siendo reconocidos por nuestra fiabilidad, excelencia en el servicio al cliente y por
+                ser el destino preferido para la adquisición de productos diversos y de calidad, creando
+                así relaciones duraderas con nuestros clientes en todo el mundo
+            </p>
+        </section>
+    </section>
+
+    <section id="productos">
+        <h3>Sobre Nuestros Productos</h3>
+        <p>
+            En ChonePlay, nos dedicamos a ofrecerte una amplia selección de productos de calidad que van desde tecnología avanzada hasta artículos para el hogar y la moda más actual.
+            Nos esforzamos por mantenernos actualizados con las últimas tendencias y garantizar que nuestros clientes tengan acceso a los mejores productos al mejor precio.
+            Con un equipo comprometido con la satisfacción del cliente, aseguramos que cada compra en nuestra tienda en línea sea una experiencia excepcional.
+        </p>
+    </section>
+</main>
+
+
+
